@@ -1,0 +1,28 @@
+Package: nobel
+Type: Package
+Title: Get information about Nobel Prize by nobel API
+Version: 0.1.0
+Author: person("Zijin", "Zhou", email = "zijinzhou1120@outlook.com",
+      role = c("anl", "res"))
+Maintainer: The package maintainer <zijinzhou1120@outlook.com>
+Description: show some information about Nobel Prize winner and explore more data about them.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    stringr,
+    tidyr,
+    purrr,
+    httr,
+    jsonlite,
+    magrittr,
+    stats,
+    tibble,
+    ggplot2
+RoxygenNote: 6.1.99.9001
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
